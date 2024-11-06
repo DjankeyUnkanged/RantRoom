@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+body{
+background-image: url("tile.png");
+background-attachment: fixed;
+background-color:96E000;
+margin: 0px auto;
+text-align:center;
+font-family:sans-serif;
+}
+
+section{
+padding:5px 5px 5px;
+margin:0px auto;
+width:500px;
+display:block;
+background-color:#88CC00;
+border:1px solid black;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+behavior: url(css/ie-css3.htc); /* This lets IE know to call the script on all elements which get the 'box' class */
+}
+
+#advertising {
+	position:absolute;
+	left:15px;
+	top:15px;
+	width:250px;
+	font-size:small;
+	color:#000000;
+	padding:5px 5px 5px;
+}
+
+#content {
+	position:absolute;
+	right: 15px;
+	top: 221px;
+	font-size: small;
+	color: #000000;
+	padding:5px 5px 5px;
+}
+
+.sidebox {
+border:1px solid black;
+background: #88CC00;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+behavior: url(css/ie-css3.htc);
+}
